@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <h1>Event Learning Game</h1>
+    <p>Trigger all the event to complete game</p>
+    <ul id="event-list"></ul>
+
+    <div id="playground">
+        <button id="clickbtn">Click Me</button>
+        <button id="bdlClickBtn">Double Click Me</button>
+        <input type="text" id="inputBox" placeholder="Type Here">
+        <input type="text" id="FocusBox" placeholder="Type Here">
+        <select id="selectBox">
+            <option value="">Select</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select>
+        <form id="submitForm">
+            <input type="text" placeholder="Type Here" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="scrollBox">SCROLL ME</div>
+        <div id="dragItem" draggable="true">Drag Me</div>
+        <div id="dropZone">Drop Here</div>
+
+        <div class="Progress">
+            <span>Progress :0%</span>
+            <button id="resetBtn">Reset Progress</button>
+        </div>
+        <div id="completedMsg" class="hidden">All Event Completed</div>
+    </div>
+</body>
+<script src="game1.js"></script>
+</html>

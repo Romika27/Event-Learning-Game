@@ -1,0 +1,118 @@
+body{
+    font-family: sans-serif;
+    background-color: hotpink;
+    margin: 0;
+    padding: 20px;
+}
+.game-container{
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(66, 64,64);
+    color: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+h1{
+    text-align: center;
+    color: purple;
+}
+#event-list{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    color: black;
+    border-radius: 12px;
+}
+
+#event-list li{
+    background-color: lavender;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-left: 6px solid violet;
+    border-radius: 12px;
+}
+#event-list li.completed{
+    background-color:lawngreen;
+    color: black;
+    border-left: 6px solid purple;
+}
+#scrollBox{
+    height: 100px;
+    overflow-y: scroll;
+    background-color: cornsilk;
+    border: 2px dashed rgb(178, 152, 46);
+    color: black;
+}
+#scrollBox::after{
+    content: "Scroll Down";
+    display: block;
+    height: 300px;
+    color: black;
+
+}
+#playground > *{
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    background-color: cornsilk;
+    color: black;
+    border-radius: 15px;
+}
+#dragItem{
+    background-color: cornsilk;
+    color: black;
+    width: 100px;
+    text-align: center;
+}
+#dropZone{
+    background-color: cornsilk;
+    border: 2px solid rgb(178, 152, 46);
+    color: black;
+    text-align: center;
+}
+
+#playground input{
+    width:98%;
+    height: 40px;
+    background-color:cornsilk;
+    border: 2px solid rgb(178, 152, 46);
+    color: black;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.progress{
+    justify-content: space-between;
+    align-items: center;
+}
+
+#resetBtn{
+    background-color: cornsilk;
+    color: rgb(178, 152, 46);
+    padding: 8px 12px;
+    border: none;
+    border-radius: 12px;
+}
+
+#CompletedMsg{
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+
+}
+.hidden{
+    visibility: hidden;
+}
+.focused{
+    box-shadow: 0 0 5px 3px ;
+}
+#submitForm button{
+    padding: 10px;
+    width: 10%;
+    text-align: center;
+    border-radius: 12px; 
+    border: 2px solid rgb(178, 152, 46);
+    color:black;
+}
